@@ -4,6 +4,7 @@ Pre-reqs: mySQL, a public AWS S3 bucket at your disposal, yarn, expo-cli
 
 Instructions:
 1) In /backend/settings/environment_settings/development.js -> enter your local mySQL username & password into lines 8 and 9
+  - Add / Ensure that a database with the name "testfileupload" exists in your mySQL instance. Sequelize will write a table to it.
 2) In /backend/app/controllers/content/media.server.controller.js -> enter your AWS Access Key Id, Secret Access Key, Region and Bucket Name into lines 11, 12, 13 and 20, respectively.
 3) Open two terminal windows and navigate one to /backend and one to /frontend
 4) Run `yarn install` in both terminal windows
