@@ -11,3 +11,4 @@ Instructions:
 5) Run `yarn start` in both terminal windows
 6) In /frontend/constants/HTTP -> enter your local IP address into line 3, keeping http and PORT 4000 the same. You should see it in the terminal window for frontend printed above the QR code that the Expo CLI produced. Usually in the form of 192.168.0.XXX.
 7) Two mp4 files are included in this repo for you to test with.
+8) Several console logs have been left in, both in the frontend and backend code for you to see the file moving from gallery to home to backend.
